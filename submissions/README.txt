@@ -1,0 +1,1 @@
+This directory stores form submission logs. All files are protected from web access.

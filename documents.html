@@ -1,0 +1,703 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Documents &amp; Reports - Manatha Foundation</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta name="description"
+        content="Access official documents and reports of Manatha Foundation, a South African non-profit organisation.">
+
+    <!-- Favicon -->
+    <link href="img/manatha foundation logo.PNG" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Saira:wght@500;600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" rel="stylesheet">
+
+    <!-- Bootstrap & Template Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css?v=1.1" rel="stylesheet">
+</head>
+
+<body>
+      <style>
+    /* Fallback to hide spinner if JavaScript fails */
+    @keyframes hideSpinner {
+      0% { opacity: 1; visibility: visible; }
+      100% { opacity: 0; visibility: hidden; }
+    }
+    #spinner {
+      animation: hideSpinner 0.5s ease-out 3s forwards;
+    }
+  </style>
+  <div id="spinner"
+    class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+    <div class="spinner-grow text-primary" role="status">
+      <span class="visually-hidden">Loading...</span>
+    </div>
+  </div>
+  <!-- Spinner End -->
+
+  <!-- Noscript fallback for users with JavaScript disabled -->
+  <noscript>
+    <style>
+      #spinner { display: none !important; }
+    </style>
+  </noscript>
+
+    <!-- Navbar Start -->
+    <div class="container-fluid fixed-top px-0 wow fadeIn" data-wow-delay="0.1s">
+        <div class="top-bar text-white row gx-0 align-items-center d-none d-lg-flex">
+            <div class="col-lg-6 px-5 text-start">
+                <small><a class="text-white" href="tel:+27178260502"><i class="fa fa-phone-alt me-2 text-gold"></i>017
+                        826 0502</a></small>
+                <small class="ms-4"><a class="text-white" href="mailto:manathafoundation@gmail.com"><i
+                            class="fa fa-envelope me-2 text-gold"></i>manathafoundation@gmail.com</a></small>
+            </div>
+            <div class="col-lg-6 px-5 text-end">
+                <small>Follow us:</small>
+                <a class="text-white ms-3" href="https://www.facebook.com/manathafoundation" target="_blank"
+                    rel="noopener" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                <a class="text-white ms-3" href="https://twitter.com/manathafoundation" target="_blank" rel="noopener"
+                    aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                <a class="text-white ms-3" href="https://www.instagram.com/manathafoundation" target="_blank"
+                    rel="noopener" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                <a class="text-white ms-3" href="https://wa.me/27178260502" target="_blank" rel="noopener"
+                    aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+            </div>
+        </div>
+        <nav class="navbar navbar-expand-lg navbar-dark py-lg-0 px-lg-5 wow fadeIn" data-wow-delay="0.1s">
+            <a href="index.html" class="navbar-brand ms-4 ms-lg-0 d-flex align-items-center">
+                <img src="img/manatha foundation logo.PNG" alt="Manatha Foundation Logo" class="me-2">
+                <div>
+                    <span class="brand-name fw-bold m-0 text-white">Manatha<span class="text-gold">Foundation</span></span>
+                    <small class="text-white-50 d-block" style="font-size: .65rem; letter-spacing: 1px;">EMPOWERING
+                        LIVES â€¢ RESTORING HOPE</small>
+                </div>
+            </a>
+            <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <div class="navbar-nav ms-auto p-4 p-lg-0">
+                    <a href="index.html" class="nav-item nav-link">Home</a>
+                    <a href="about.html" class="nav-item nav-link">About</a>
+                    <div class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Programs</a>
+                        <div class="dropdown-menu m-0">
+                            <a href="programs.html" class="dropdown-item">Our Programs</a>
+                            <a href="program-wellbeing.html" class="dropdown-item">Community Well-being</a>
+                            <a href="program-education.html" class="dropdown-item">Education &amp; Career
+                                Development</a>
+                            <a href="program-digital.html" class="dropdown-item">Digital Inclusion</a>
+                            <a href="program-access-education.html" class="dropdown-item">Access to Education</a>
+                            <a href="program-skills.html" class="dropdown-item">Skills Development</a>
+                        </div>
+                    </div>
+                    <a href="impact.html" class="nav-item nav-link">Our Impact</a>
+                    <div class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Get Involved</a>
+                        <div class="dropdown-menu m-0">
+                            <a href="donate.html" class="dropdown-item">Donate</a>
+                            <a href="volunteer.html" class="dropdown-item">Volunteer</a>
+                            <a href="partners.html" class="dropdown-item">Partners</a>
+                            <a href="events.html" class="dropdown-item">Events</a>
+                            <a href="news.html" class="dropdown-item">News &amp; Stories</a>
+                        </div>
+                    </div>
+                    <div class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle active" data-bs-toggle="dropdown">About NPO</a>
+                        <div class="dropdown-menu m-0">
+                            <a href="governance.html" class="dropdown-item">Governance</a>
+                            <a href="constitution.html" class="dropdown-item">Constitution</a>
+                            <a href="documents.html" class="dropdown-item active">Documents &amp; Reports</a>
+                            <a href="faq.html" class="dropdown-item">FAQ</a>
+                            <a href="contact.html" class="dropdown-item">Contact Us</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="d-none d-lg-flex ms-2">
+                    <a class="btn btn-gold py-2 px-3" href="donate.html">Donate Now <div
+                            class="d-inline-flex btn-sm-square bg-white text-gold rounded-circle ms-2"><i
+                                class="fa fa-arrow-right"></i></div></a>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <!-- Navbar End -->
+
+
+    <!-- Page Header Start -->
+    <div class="container-fluid page-header mb-5 wow fadeIn" data-wow-delay="0.1s">
+        <div class="container text-center">
+            <h1 class="display-4 text-white animated slideInDown mb-3">Documents &amp; Reports</h1>
+            <nav aria-label="breadcrumb animated slideInDown">
+                <ol class="breadcrumb justify-content-center mb-0">
+                    <li class="breadcrumb-item"><a class="text-white" href="index.html">Home</a></li>
+                    <li class="breadcrumb-item active text-gold" aria-current="page">Documents &amp; Reports</li>
+                </ol>
+            </nav>
+        </div>
+    </div>
+    <!-- Page Header End -->
+
+
+    <!-- Documents Start -->
+    <div class="container-xxl py-5">
+        <div class="container">
+            <div id="transparency" class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s"
+                style="max-width: 750px;">
+                <div class="section-badge mb-3">Governance &amp; Statutory Compliance</div>
+                <h2 class="display-6 mb-3">Official Documents, Legal Framework &amp; Compliance Reports</h2>
+                <p class="mb-3 text-muted">In strict accordance with the <strong>Non-Profit Organisations Act, 1997 (Act
+                        No. 71 of 1997)</strong> of the Republic of South Africa, Manatha Foundation maintains full
+                    statutory compliance and public transparency across all governance, financial, and operational
+                    reports.</p>
+            </div>
+
+            <!-- Documents Grid -->
+            <div class="row g-4 justify-content-center">
+
+                <!-- Document 1: NPO Certificate -->
+                <div class="col-12 col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="card h-100 border-0 shadow-sm rounded-3 overflow-hidden text-center p-4 bg-white">
+                        <div class="mb-2">
+                            <a href="#" data-bs-toggle="modal" data-bs-target="#modalNpoCert"
+                                title="Click to inspect official certificate">
+                                <img src="img/manatha foundation certificate.png"
+                                    alt="NPO Registration Certificate 306-164"
+                                    class="img-fluid rounded border shadow-sm p-1 bg-light"
+                                    style="max-height: 120px; object-fit: contain;" />
+                            </a>
+                        </div>
+                        <span class="badge bg-gold text-dark mb-2 align-self-center px-3 py-1 fw-bold">DSD Registered
+                            NPO</span>
+                        <h5 class="mb-2">NPO Registration Certificate</h5>
+                        <p class="text-muted small mb-3">Official Certificate of Registration issued under Section 13 of
+                            the Non-Profit Organisations Act, 1997 (Act 71 of 1997) by the RSA Department of Social
+                            Development.</p>
+                        <div class="mt-auto">
+                            <p class="text-primary fw-bold small mb-2"><i class="fa fa-id-badge me-1"></i>NPO REG NO:
+                                306-164</p>
+                            <button class="btn btn-outline-primary w-100 py-2" data-bs-toggle="modal"
+                                data-bs-target="#modalNpoCert">
+                                <i class="fa fa-eye me-1"></i> View Official Certificate
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Document 2: NPO Constitution -->
+                <div class="col-12 col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.2s">
+                    <div class="card h-100 border-0 shadow-sm rounded-3 overflow-hidden text-center p-4 bg-white">
+                        <div class="btn-square bg-primary text-white rounded-circle mx-auto mb-3"
+                            style="width: 60px; height: 60px;">
+                            <i class="fa fa-file-contract fs-4"></i>
+                        </div>
+                        <span class="badge bg-gold text-dark mb-2 align-self-center px-3 py-1 fw-bold">Governing
+                            Statute</span>
+                        <h5 class="mb-2">Official NPO Constitution</h5>
+                        <p class="text-muted small mb-3">Formally adopted Constitution governing Manatha Foundation's
+                            non-profit objectives, board office bearers, financial year (31 March), and asset
+                            distribution clauses.</p>
+                        <div class="mt-auto">
+                            <p class="text-primary fw-bold small mb-2"><i class="fa fa-calendar-check me-1"></i>Adopted:
+                                20 March 2024</p>
+                            <a class="btn btn-outline-primary w-100 py-2" href="constitution.html">
+                                <i class="fa fa-external-link-alt me-1"></i> View Full Constitution
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Document 3: DSD Narrative Report -->
+                <div class="col-12 col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="card h-100 border-0 shadow-sm rounded-3 overflow-hidden text-center p-4 bg-white">
+                        <div class="btn-square bg-primary text-white rounded-circle mx-auto mb-3"
+                            style="width: 60px; height: 60px;">
+                            <i class="fa fa-chart-bar fs-4"></i>
+                        </div>
+                        <span class="badge bg-gold text-dark mb-2 align-self-center px-3 py-1 fw-bold">DSD
+                            Compliance</span>
+                        <h5 class="mb-2">DSD Annual Narrative Report</h5>
+                        <p class="text-muted small mb-3">Statutory Form NPO 1 Narrative Report submitted annually to the
+                            Directorate for Non-Profit Organisations detailing program execution and beneficiaries
+                            served.</p>
+                        <div class="mt-auto">
+                            <p class="text-primary fw-bold small mb-2"><i class="fa fa-file-alt me-1"></i>Form NPO 1
+                                Standard</p>
+                            <button class="btn btn-outline-primary w-100 py-2" data-bs-toggle="modal"
+                                data-bs-target="#modalDsdReport">
+                                <i class="fa fa-file-pdf me-1"></i> View DSD Report Template
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Document 4: Financial Statements -->
+                <div class="col-12 col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.4s">
+                    <div class="card h-100 border-0 shadow-sm rounded-3 overflow-hidden text-center p-4 bg-white">
+                        <div class="btn-square bg-primary text-white rounded-circle mx-auto mb-3"
+                            style="width: 60px; height: 60px;">
+                            <i class="fa fa-file-invoice-dollar fs-4"></i>
+                        </div>
+                        <span class="badge bg-gold text-dark mb-2 align-self-center px-3 py-1 fw-bold">Financial
+                            Audit</span>
+                        <h5 class="mb-2">Annual Financial Statements</h5>
+                        <p class="text-muted small mb-3">Audited financial statements, balance sheet, and
+                            income/expenditure statements prepared in compliance with RSA accounting standards for the
+                            financial year ending 31 March.</p>
+                        <div class="mt-auto">
+                            <p class="text-primary fw-bold small mb-2"><i class="fa fa-balance-scale me-1"></i>Year End:
+                                31 March</p>
+                            <button class="btn btn-outline-primary w-100 py-2" data-bs-toggle="modal"
+                                data-bs-target="#modalFinancialReport">
+                                <i class="fa fa-table me-1"></i> View Financial Structure
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Document 5: Section 18A & PBO Certificate -->
+                <div class="col-12 col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="card h-100 border-0 shadow-sm rounded-3 overflow-hidden text-center p-4 bg-white">
+                        <div class="btn-square bg-primary text-white rounded-circle mx-auto mb-3"
+                            style="width: 60px; height: 60px;">
+                            <i class="fa fa-hand-holding-usd fs-4"></i>
+                        </div>
+                        <span class="badge bg-gold text-dark mb-2 align-self-center px-3 py-1 fw-bold">SARS Tax
+                            Exemption</span>
+                        <h5 class="mb-2">Section 18A &amp; PBO Status</h5>
+                        <p class="text-muted small mb-3">Public Benefit Organisation (PBO) framework and Section 18A
+                            tax-deductible receipt issuance compliance under the South African Income Tax Act No. 58 of
+                            1962.</p>
+                        <div class="mt-auto">
+                            <p class="text-primary fw-bold small mb-2"><i class="fa fa-university me-1"></i>SARS PBO
+                                Framework</p>
+                            <button class="btn btn-outline-primary w-100 py-2" data-bs-toggle="modal"
+                                data-bs-target="#modalSection18a">
+                                <i class="fa fa-info-circle me-1"></i> View Tax Status Details
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Document 6: POPIA & PAIA Manual -->
+                <div class="col-12 col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.6s">
+                    <div class="card h-100 border-0 shadow-sm rounded-3 overflow-hidden text-center p-4 bg-white">
+                        <div class="btn-square bg-primary text-white rounded-circle mx-auto mb-3"
+                            style="width: 60px; height: 60px;">
+                            <i class="fa fa-shield-alt fs-4"></i>
+                        </div>
+                        <span class="badge bg-gold text-dark mb-2 align-self-center px-3 py-1 fw-bold">Data
+                            Privacy</span>
+                        <h5 class="mb-2">POPIA &amp; PAIA Compliance Manual</h5>
+                        <p class="text-muted small mb-3">Statutory Privacy Policy &amp; Information Manual compiled
+                            pursuant to Section 51 of the Promotion of Access to Information Act (PAIA) and the POPI Act
+                            4 of 2013.</p>
+                        <div class="mt-auto">
+                            <p class="text-primary fw-bold small mb-2"><i class="fa fa-lock me-1"></i>POPI Act No. 4 of
+                                2013</p>
+                            <button class="btn btn-outline-primary w-100 py-2" data-bs-toggle="modal"
+                                data-bs-target="#modalPopia">
+                                <i class="fa fa-book me-1"></i> Inspect PAIA Manual
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Document 7: Board Resolution & Governance -->
+                <div class="col-12 col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.7s">
+                    <div class="card h-100 border-0 shadow-sm rounded-3 overflow-hidden text-center p-4 bg-white">
+                        <div class="btn-square bg-primary text-white rounded-circle mx-auto mb-3"
+                            style="width: 60px; height: 60px;">
+                            <i class="fa fa-gavel fs-4"></i>
+                        </div>
+                        <span class="badge bg-gold text-dark mb-2 align-self-center px-3 py-1 fw-bold">King IV
+                            Governance</span>
+                        <h5 class="mb-2">Board Resolution &amp; Governance Template</h5>
+                        <p class="text-muted small mb-3">Official template for Board Resolutions, Conflict of Interest
+                            Disclosures, and Governance Minutes adhering to RSA King IV Code for NPOs.</p>
+                        <div class="mt-auto">
+                            <p class="text-primary fw-bold small mb-2"><i class="fa fa-balance-scale me-1"></i>King IV
+                                Principles</p>
+                            <button class="btn btn-outline-primary w-100 py-2" data-bs-toggle="modal"
+                                data-bs-target="#modalResolution">
+                                <i class="fa fa-file-code me-1"></i> View Resolution Template
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- Call to action -->
+            <div class="bg-light rounded p-4 p-md-5 mt-5 text-center border border-primary wow fadeInUp"
+                data-wow-delay="0.2s">
+                <h4 class="mb-2">Require Certified Hard Copies or Specific Compliance Filings?</h4>
+                <p class="text-muted mb-4" style="max-width: 700px; margin: 0 auto;">Stakeholders, corporate donors, and
+                    regulatory bodies requiring certified physical copies of our statutory filings or bank verification
+                    letters can contact our Secretariat office.</p>
+                <a class="btn btn-gold py-3 px-5 fw-bold" href="contact.html">
+                    Contact Secretariat <i class="fa fa-envelope ms-2"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+    <!-- Documents End -->
+
+    <!-- MODAL 1: NPO Certificate Viewer -->
+    <div class="modal fade" id="modalNpoCert" tabindex="-1" aria-labelledby="modalNpoCertLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content border-0 shadow-lg">
+                <div class="modal-header bg-primary text-white">
+                    <h5 class="modal-header-title text-white mb-0" id="modalNpoCertLabel"><i
+                            class="fa fa-certificate me-2"></i>REPUBLIC OF SOUTH AFRICA - NPO REGISTRATION CERTIFICATE
+                    </h5>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"
+                        aria-label="Close"></button>
+                </div>
+                <div class="modal-body p-4 text-dark text-center">
+                    <div class="mb-3 pb-2 border-bottom">
+                        <h6 class="text-uppercase text-muted mb-1">Department of Social Development â€¢ Directorate for
+                            Non-Profit Organisations</h6>
+                        <h5 class="fw-bold text-primary mb-0">OFFICIAL CERTIFICATE OF REGISTRATION (NPO REG NO: 306-164)
+                        </h5>
+                    </div>
+
+                    <!-- Official Certificate Image -->
+                    <div class="my-3 text-center bg-light p-2 rounded border">
+                        <a href="img/manatha foundation certificate.png" target="_blank"
+                            title="Click to view full size certificate image">
+                            <img src="img/manatha foundation certificate.png"
+                                alt="Manatha Foundation Official NPO Certificate"
+                                class="img-fluid rounded border shadow-sm" style="max-height: 580px; width: auto;" />
+                        </a>
+                    </div>
+                    <p class="small text-muted mb-0"><i class="fa fa-check-circle text-success me-1"></i>Issued in terms
+                        of Section 13 of the Non-Profit Organisations Act, 1997 (Act No. 71 of 1997), Republic of South
+                        Africa.</p>
+                </div>
+                <div class="modal-footer bg-light justify-content-between">
+                    <a href="img/manatha foundation certificate.png" target="_blank" class="btn btn-outline-primary"><i
+                            class="fa fa-external-link-alt me-1"></i> Open Full Image</a>
+                    <div>
+                        <button type="button" class="btn btn-secondary me-2" data-bs-dismiss="modal">Close</button>
+                        <a href="img/manatha foundation certificate.png"
+                            download="Manatha_Foundation_NPO_Certificate_306-164.png" class="btn btn-gold"><i
+                                class="fa fa-download me-1"></i> Download Certificate</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- MODAL 2: DSD Form NPO 1 Report Template -->
+    <div class="modal fade" id="modalDsdReport" tabindex="-1" aria-labelledby="modalDsdReportLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-scrollable">
+            <div class="modal-content border-0 shadow-lg">
+                <div class="modal-header bg-primary text-white">
+                    <h5 class="modal-header-title text-white mb-0" id="modalDsdReportLabel"><i
+                            class="fa fa-chart-line me-2"></i>DSD FORM NPO 1 - ANNUAL NARRATIVE REPORT TEMPLATE</h5>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"
+                        aria-label="Close"></button>
+                </div>
+                <div class="modal-body p-4 text-dark">
+                    <div class="alert alert-info border-0 mb-3">
+                        <strong>Statutory Requirement:</strong> Pursuant to Section 18 of the NPO Act 71 of 1997,
+                        registered NPOs in South Africa must submit an annual narrative report to the Department of
+                        Social Development within 9 months of financial year end.
+                    </div>
+                    <div class="border p-3 rounded bg-white font-monospace small">
+                        <h6>FORM NPO 1 - ANNUAL NARRATIVE REPORT</h6>
+                        <p class="mb-1"><strong>1. ORGANISATION DETAILS</strong></p>
+                        <p class="ms-3 mb-1">â€¢ Name: Manatha Foundation<br>â€¢ NPO Reg No: 306-164<br>â€¢ Financial Year: 1
+                            April - 31 March</p>
+                        <hr>
+                        <p class="mb-1"><strong>2. OFFICE BEARERS &amp; BOARD MEMBERS</strong></p>
+                        <p class="ms-3 mb-1">â€¢ Chairperson: Mr Sanboy Coka<br>â€¢ Treasurer: Mcebisi Dlamini<br>â€¢
+                            Secretary: Miss Londiwe Ngcobo</p>
+                        <hr>
+                        <p class="mb-1"><strong>3. PROGRAMMATIC ACTIVITIES &amp; IMPACT SUMMARY</strong></p>
+                        <p class="ms-3 mb-1">â€¢ Community Well-being: Nutritional and emergency relief services.<br>â€¢
+                            Education &amp; Career Guidance: Uniforms, learning materials, matric support.<br>â€¢ Digital
+                            Inclusion: Internet access and digital literacy workshops.<br>â€¢ Skills Development:
+                            Vocational skills training programs.</p>
+                        <hr>
+                        <p class="mb-1"><strong>4. COMPLIANCE DECLARATION</strong></p>
+                        <p class="ms-3 mb-0">Compiled in strict compliance with DSD statutory reporting standards.</p>
+                    </div>
+                </div>
+                <div class="modal-footer bg-light">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <a href="contact.html" class="btn btn-primary"><i class="fa fa-envelope me-1"></i> Request Full
+                        Report Filing</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- MODAL 3: Financial Report Structure -->
+    <div class="modal fade" id="modalFinancialReport" tabindex="-1" aria-labelledby="modalFinancialReportLabel"
+        aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content border-0 shadow-lg">
+                <div class="modal-header bg-primary text-white">
+                    <h5 class="modal-header-title text-white mb-0" id="modalFinancialReportLabel"><i
+                            class="fa fa-table me-2"></i>ANNUAL FINANCIAL STATEMENTS FRAMEWORK</h5>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"
+                        aria-label="Close"></button>
+                </div>
+                <div class="modal-body p-4 text-dark">
+                    <h6 class="fw-bold text-primary mb-3">Financial Governance &amp; Year-End Parameters</h6>
+                    <ul class="list-group list-group-flush mb-4">
+                        <li class="list-group-item d-flex justify-content-between align-items-center">
+                            <span>Financial Year Period</span>
+                            <span class="badge bg-primary rounded-pill">1 April â€“ 31 March</span>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-center">
+                            <span>Accounting Standards</span>
+                            <span class="badge bg-secondary text-dark rounded-pill">IFRS for SMEs / RSA NPO
+                                Guidelines</span>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-center">
+                            <span>Accounting Officer / Independent Reviewer</span>
+                            <span class="badge bg-success rounded-pill">Independent Certified Accountant</span>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-center">
+                            <span>Banking Institution</span>
+                            <span class="badge bg-info text-dark rounded-pill">Official Registered RSA NPO
+                                Account</span>
+                        </li>
+                    </ul>
+                    <p class="small text-muted mb-0">Detailed audited financial statements including Income &amp;
+                        Expense Statements, Balance Sheet, and Auditor Notes are available upon written request by
+                        donors and auditors.</p>
+                </div>
+                <div class="modal-footer bg-light">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <a href="donate.html" class="btn btn-gold"><i class="fa fa-heart me-1"></i> Support Our Work</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- MODAL 4: Section 18A Tax Status -->
+    <div class="modal fade" id="modalSection18a" tabindex="-1" aria-labelledby="modalSection18aLabel"
+        aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content border-0 shadow-lg">
+                <div class="modal-header bg-primary text-white">
+                    <h5 class="modal-header-title text-white mb-0" id="modalSection18aLabel"><i
+                            class="fa fa-university me-2"></i>SARS SECTION 18A &amp; PBO STATUS</h5>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"
+                        aria-label="Close"></button>
+                </div>
+                <div class="modal-body p-4 text-dark">
+                    <p>Manatha Foundation is structured to comply with Section 10(1)(cN) and Section 18A of the
+                        <strong>Income Tax Act No. 58 of 1962</strong> as a Public Benefit Organisation (PBO).</p>
+                    <div class="p-3 bg-light rounded border mb-3">
+                        <strong class="d-block text-primary mb-1"><i class="fa fa-receipt me-1"></i>Tax Deductible
+                            Receipts:</strong>
+                        <small class="text-muted">Donations made by South African taxpayers (individual and corporate)
+                            qualify for Section 18A tax deduction certificates issued directly by our finance
+                            department.</small>
+                    </div>
+                </div>
+                <div class="modal-footer bg-light">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <a href="contact.html" class="btn btn-primary"><i class="fa fa-envelope me-1"></i> Request Tax
+                        Certificate Info</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- MODAL 5: POPIA & PAIA Manual -->
+    <div class="modal fade" id="modalPopia" tabindex="-1" aria-labelledby="modalPopiaLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content border-0 shadow-lg">
+                <div class="modal-header bg-primary text-white">
+                    <h5 class="modal-header-title text-white mb-0" id="modalPopiaLabel"><i
+                            class="fa fa-lock me-2"></i>POPIA &amp; PAIA SECTION 51 MANUAL</h5>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"
+                        aria-label="Close"></button>
+                </div>
+                <div class="modal-body p-4 text-dark">
+                    <p class="mb-2">In compliance with the <strong>Protection of Personal Information Act 4 of 2013
+                            (POPIA)</strong> and the <strong>Promotion of Access to Information Act 2 of 2000
+                            (PAIA)</strong>:</p>
+                    <ul class="small text-muted ps-3 mb-3">
+                        <li class="mb-1">Personal information collected from donors, volunteers, and beneficiaries is
+                            processed lawfully, securely, and strictly for NPO operations.</li>
+                        <li class="mb-1">No personal information is sold, rented, or distributed to third parties.</li>
+                        <li class="mb-1">Individuals have the right to request access, correction, or deletion of their
+                            personal records.</li>
+                    </ul>
+                </div>
+                <div class="modal-footer bg-light">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <a href="privacy.html" class="btn btn-primary"><i class="fa fa-external-link-alt me-1"></i> View
+                        Privacy Policy</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- MODAL 6: Board Resolution Template -->
+    <div class="modal fade" id="modalResolution" tabindex="-1" aria-labelledby="modalResolutionLabel"
+        aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-scrollable">
+            <div class="modal-content border-0 shadow-lg">
+                <div class="modal-header bg-primary text-white">
+                    <h5 class="modal-header-title text-white mb-0" id="modalResolutionLabel"><i
+                            class="fa fa-gavel me-2"></i>BOARD RESOLUTION TEMPLATE (RSA KING IV COMPLIANT)</h5>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"
+                        aria-label="Close"></button>
+                </div>
+                <div class="modal-body p-4 text-dark">
+                    <div class="border p-3 bg-light rounded font-monospace small">
+                        <h6 class="text-center fw-bold">BOARD OF MANAGEMENT RESOLUTION OF MANATHA FOUNDATION (NPO
+                            306-164)</h6>
+                        <p class="mb-1">Passed at the Board Meeting held on [Date] in terms of Section 8 of the NPO
+                            Constitution.</p>
+                        <hr>
+                        <p class="mb-1"><strong>IT WAS RESOLVED THAT:</strong></p>
+                        <p class="ms-3 mb-2">1. The Board formally approves the financial budget and statutory filings
+                            for the financial year.<br>2. Authorized Signatories for official bank accounts and
+                            contracts shall consist of any two designated Office Bearers (Chairperson, Treasurer, or
+                            Secretary).<br>3. All operations continue to align strictly with the South African
+                            Non-Profit Organisations Act, 1997.</p>
+                        <hr>
+                        <p class="mb-0"><strong>CERTIFIED AS A TRUE RECORD BY BOARD OFFICE BEARERS:</strong><br>â€¢
+                            Chairperson: Mr Sanboy Coka<br>â€¢ Treasurer: Mcebisi Dlamini<br>â€¢ Secretary: Miss Londiwe
+                            Ngcobo</p>
+                    </div>
+                </div>
+                <div class="modal-footer bg-light">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Footer Start -->
+    <div class="container-fluid footer pt-5 wow fadeIn" data-wow-delay="0.1s">
+        <div class="container py-5">
+            <div class="row g-5">
+                <div class="col-lg-3 col-md-6">
+                    <div class="d-flex align-items-center mb-3 footer-logo">
+                        <img src="img/manatha foundation logo.PNG" alt="Manatha Foundation Logo" class="me-2" />
+                        <h4 class="fw-bold text-white m-0">
+                            Manatha<span class="text-gold">Foundation</span>
+                        </h4>
+                    </div>
+                    <p class="mb-2">
+                        Empowering Lives â€¢ Restoring Hope â€¢ Building Tomorrow.
+                    </p>
+                    <p class="mb-3 small">
+                        NPO REG NO 306-164 | Registered 16 April 2024
+                    </p>
+                    <div class="d-flex pt-1">
+                        <a class="btn btn-square me-1" href="https://www.facebook.com/manathafoundation" target="_blank"
+                            rel="noopener" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-square me-1" href="https://twitter.com/manathafoundation" target="_blank"
+                            rel="noopener" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                        <a class="btn btn-square me-1" href="https://www.instagram.com/manathafoundation"
+                            target="_blank" rel="noopener" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a class="btn btn-square me-1" href="https://www.tiktok.com/@manathafoundation" target="_blank"
+                            rel="noopener" aria-label="TikTok"><i class="fab fa-tiktok"></i></a>
+                        <a class="btn btn-square me-1" href="https://www.youtube.com/@manathafoundation" target="_blank"
+                            rel="noopener" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                        <a class="btn btn-square me-0" href="https://wa.me/27178260502" target="_blank" rel="noopener"
+                            aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h5 class="text-white mb-4 text-uppercase small text-gold">
+                        Organisation
+                    </h5>
+                    <a class="btn btn-link" href="about.html">About Us</a>
+                    <a class="btn btn-link" href="programs.html">Our Programs</a>
+                    <a class="btn btn-link" href="impact.html">Our Impact</a>
+                    <a class="btn btn-link" href="governance.html">Governance</a>
+                    <a class="btn btn-link" href="constitution.html">Constitution</a>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h5 class="text-white mb-4 text-uppercase small text-gold">
+                        Get Involved
+                    </h5>
+                    <a class="btn btn-link" href="donate.html">Donate</a>
+                    <a class="btn btn-link" href="volunteer.html">Volunteer</a>
+                    <a class="btn btn-link" href="partners.html">Partner With Us</a>
+                    <a class="btn btn-link" href="events.html">Events</a>
+                    <a class="btn btn-link" href="news.html">News &amp; Stories</a>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h5 class="text-white mb-4 text-uppercase small text-gold">
+                        Resources &amp; Contact
+                    </h5>
+                    <a class="btn btn-link" href="documents.html">Documents &amp; Reports</a>
+                    <a class="btn btn-link" href="faq.html">FAQ</a>
+                    <a class="btn btn-link" href="privacy.html">Privacy Policy</a>
+                    <a class="btn btn-link" href="terms.html">Terms of Use</a>
+                    <p class="mb-1 mt-2">
+                        <i class="fa fa-phone-alt me-2 text-gold"></i>017 826 0502
+                    </p>
+                    <p class="mb-0">
+                        <i class="fa fa-envelope me-2 text-gold"></i>manathafoundation@gmail.com
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid copyright">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-md-6 text-center text-md-start mb-2 mb-md-0">
+                        MANATHA FOUNDATION | NPO REG NO 306-164
+                    </div>
+                    <div class="col-md-6 text-center text-md-end mb-2 mb-md-0">
+                        &copy; 2026 <a href="index.html">Manatha Foundation</a>. All Rights Reserved.
+                    </div>
+                    <div class="col-12 text-center mt-2 pt-2 border-top border-secondary">
+                        <small class="text-white-50">
+                            Website Designed by <a href="coka-consultant.html" target="_blank" rel="noopener"
+                                class="text-gold fw-bold">Mr_Coka_Sir</a>
+                        </small>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer End -->
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top" aria-label="Back to top"><i
+            class="bi bi-arrow-up"></i></a>
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/parallax.js/1.5.0/parallax.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
